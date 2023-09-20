@@ -1,0 +1,30 @@
+h3
+{
+  font-size: 25px !important;
+}
+
+/* .btn-success:hover: estamos adicionando o estilo “hover” à classe */
+.btn-success:hover
+{
+  background-color: red;
+}
+canvas {
+    margin-top: 40px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+/* ○ @keyframes é a palavra-chave usada quando queremos
+definir uma animação,quando você especifica estilos CSS dentro da @keyframes, a animação mudará gradualmente do estilo 
+atual para o novo estilo em determinados momentos. */
+@keyframes example {
+
+  /* 1px quanto no lado  direito da tela nos queremos */
+  /* 1px quanto de  fundo nós queremos */
+  /* 38px  a  extensão que  você quer que a cor se  espalhe */
+from {box-shadow: 1px 1px 38px rgb(19, 9, 128);}
+to {box-shadow: 1px 1px 38px #cd204e;}
+
+}
